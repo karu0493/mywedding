@@ -17,7 +17,7 @@
 .countdown-clock div {
     flex-basis: 100px; 
     font-style: italic;
-    color: #FF0000;
+    color: #fff;
 
     
 }
@@ -26,6 +26,7 @@
     font-size: 60px;
     margin-bottom: -14px;
     color: #fff;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 
@@ -46,4 +47,8 @@
     object-fit: cover; 
     transform: rotate(-90deg); 
     /* transform-origin: left top; */
+}
+
+.row {
+    font-family: cursive;
 }
