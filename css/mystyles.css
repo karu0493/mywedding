@@ -57,7 +57,8 @@
 }
 
 #venueBtn {
-    background-color: rgb(173, 173, 11);
+    background-color: rgb(101, 104, 105);
+    color: #fff;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -66,7 +67,8 @@
 }
 
 #venueBtn1 {
-    background-color: rgb(173, 173, 11);
+    background-color: rgb(101, 104, 105);
+    color: #fff;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -75,7 +77,8 @@
 }
 
 #venueBtn2 {
-    background-color: rgb(173, 173, 11);
+    background-color: rgb(101, 104, 105);
+    color: #fff;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
