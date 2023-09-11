@@ -100,3 +100,16 @@
         transition: none;
     }
 }
+
+.prewedding-trailer1 {
+	display: block;
+	width: 100%;
+	max-width: 50em;
+	margin: auto;
+	border: 0;
+	animation: fadeIn 10s forwards;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
