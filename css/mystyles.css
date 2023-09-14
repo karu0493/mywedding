@@ -52,7 +52,9 @@
 .VenueButton {
     display: flex;
     justify-content: center;
+    justify-items: center;
     align-items: center;
+    margin-bottom: 30px;
     height: 10px; /* This will make the container fill the entire viewport height */
 }
 

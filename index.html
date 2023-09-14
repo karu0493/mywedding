@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>
@@ -6,313 +6,393 @@
 <!--[if IE 8]>
 <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>karthik & sushmitha getting hitched!</title>
-    <meta name="description" content="We would like to invite you to our big day.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="karthik & sushmitha getting hitched">
-    <meta property="og:description" content="We would like to invite you to our big day.">
+    <meta
+      name="description"
+      content="We would like to invite you to our big day."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:title" content="karthik & sushmitha getting hitched" />
+    <meta
+      property="og:description"
+      content="We would like to invite you to our big day."
+    />
     <!-- <meta property="og:image" content="img/WOLF7597.jpg"> -->
-    <meta property="og:type" content="website">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="manifest.json">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
-    
+    <meta property="og:type" content="website" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
 
     <script>
-        // load css files from CDN if local node_modules fail
-        function loadCssFromCDN(css) {
-            // create new link tag
-            const link = document.createElement('link');
-            if (css === 'animate.css') {
-                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css';
-            } else if (css === 'font-awesome.css') {
-                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
-            }
-            link.rel = 'stylesheet';
-
-            // add link tag to head section
-            document.getElementsByTagName('head')[0].appendChild(link);
+      // load css files from CDN if local node_modules fail
+      function loadCssFromCDN(css) {
+        // create new link tag
+        const link = document.createElement("link");
+        if (css === "animate.css") {
+          link.href =
+            "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css";
+        } else if (css === "font-awesome.css") {
+          link.href =
+            "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
         }
+        link.rel = "stylesheet";
 
-        // load js files from CDN if local node_modules fail
-        function loadJsFromCDN(js) {
-            if (js === 'waypoints.js') {
-                document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"><\/script>');
-            } else if (js === 'jquery.js') {
-                document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"><\/script>');
-            }
+        // add link tag to head section
+        document.getElementsByTagName("head")[0].appendChild(link);
+      }
+
+      // load js files from CDN if local node_modules fail
+      function loadJsFromCDN(js) {
+        if (js === "waypoints.js") {
+          document.write(
+            '<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"><\/script>'
+          );
+        } else if (js === "jquery.js") {
+          document.write(
+            '<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"><\/script>'
+          );
         }
+      }
     </script>
 
-        <link rel="stylesheet"  href="css/mystyles.css?v=1">
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.css">
-    <link rel="stylesheet" href="css/flexslider.css">
-    <link rel="stylesheet" href="css/styles.min.css">
-    <link rel="stylesheet" href="css/queries.css">
-    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" onerror="loadCssFromCDN('animate.css')">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" onerror="loadCssFromCDN('font-awesome.css')">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="css/mystyles.css?v=1" />
+    <link rel="stylesheet" href="css/normalize.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <link rel="stylesheet" href="css/styles.min.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/animate.css/animate.min.css"
+      onerror="loadCssFromCDN('animate.css')"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+      onerror="loadCssFromCDN('font-awesome.css')"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-</head>
-<body id="top">
-<!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
-    your browser</a> to improve your experience.</p>
-<![endif]-->
-<section class="hero">
-    <section class="navigation">
+  </head>
+  <body id="top">
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.
+      </p>
+    <![endif]-->
+    <section class="hero">
+      <section class="navigation">
         <header>
-            <div class="header-content">
-                <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
-                <div class="header-nav">
-                    <nav>
-                        <ul class="primary-nav">
-                            <li><a href="#events">Events</a></li>
-                            <li><a href="#ourstory">Our Story</a></li>
-                            <!-- <li class="hidden-sm hidden-xs"><a href="#video-bg">Glimpse of the city</a></li> -->
-                        </ul>
-                        <ul class="member-actions">
-                            <li><a href="#map" class="login">Venue</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="navicon">
-                    <a class="nav-toggle" href="#"><span></span></a>
-                </div>
+          <div class="header-content">
+            <div class="logo">
+              <a href="#"><img src="img/logo.png" alt="Logo" /></a>
             </div>
+            <div class="header-nav">
+              <nav>
+                <ul class="primary-nav">
+                  <li><a href="#events">Events</a></li>
+                  <li><a href="#ourstory">Our Story</a></li>
+                  <!-- <li class="hidden-sm hidden-xs"><a href="#video-bg">Glimpse of the city</a></li> -->
+                </ul>
+                <ul class="member-actions">
+                  <li><a href="#map" class="login">Venue</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="navicon">
+              <a class="nav-toggle" href="#"><span></span></a>
+            </div>
+          </div>
         </header>
-    </section>
-    <div class="container">
+      </section>
+      <div class="container">
         <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div></div>
-                <div class="hero-content text-center">
-                    <h1 style="opacity: .5; padding-bottom: 70%; font-family: cursive; font-size: 70px;">Karthik <span class="fa fa-heart pulse2" style="color: red;"></span> Sushmitha</h1>
-                    <!-- <img src="img/logo-lg.png"> -->
-                    <!--<p class="intro">Ram & Antara are getting hitched!</p>-->
-                    <!--<a href="#" class="btn btn-fill btn-large btn-margin-right">Scroll Down</a> -->
-                </div>
+          <div class="col-md-10 col-md-offset-1">
+            <div></div>
+            <div class="hero-content text-center">
+              <h1
+                style="
+                  opacity: 0.5;
+                  padding-bottom: 70%;
+                  font-family: cursive;
+                  font-size: 70px;
+                "
+              >
+                Karthik
+                <span class="fa fa-heart pulse2" style="color: red"></span>
+                Sushmitha
+              </h1>
+              <!-- <img src="img/logo-lg.png"> -->
+              <!--<p class="intro">Ram & Antara are getting hitched!</p>-->
+              <!--<a href="#" class="btn btn-fill btn-large btn-margin-right">Scroll Down</a> -->
             </div>
+          </div>
         </div>
         <!-- <div class="row">
             <div class="col-sm-4 hidden-xs"></div>
             <div class="col-sm-4 hidden-xs"></div>
         </div> -->
-    </div>
-    <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
-</section>
+      </div>
+      <div class="down-arrow floating-arrow">
+        <a href="#invitation"><i class="fa fa-angle-down"></i></a>
+      </div>
+    </section>
 
-<section id="invitation" class="section-padding">
-    <div class="container">
+    <section id="invitation" class="section-padding">
+      <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <h3>Let's Freeze the time</h3>
-                <!-- <p>The dates are 24<sup>th</sup> & 25<sup>th</sup> of September '23 and we would like you to be a part of
+          <div class="col-md-12 text-center">
+            <h3>Let's Freeze the time</h3>
+            <!-- <p>The dates are 24<sup>th</sup> & 25<sup>th</sup> of September '23 and we would like you to be a part of
                     it.</p> -->
-            </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section class="countdown-timer">
-    <div class="countdown-clock">
+    <section class="countdown-timer">
+      <div class="countdown-clock">
         <div>
-            <p id="days">00</p>
-            <span>Days</span>
+          <p id="days">00</p>
+          <span>Days</span>
         </div>
         <div>
-            <p id="hours">00</p>
-            <span>Hours</span>
+          <p id="hours">00</p>
+          <span>Hours</span>
         </div>
         <div>
-            <p id="minutes">00</p>
-            <span>Minutes</span>
+          <p id="minutes">00</p>
+          <span>Minutes</span>
         </div>
         <div>
-            <p id="seconds">00</p>
-            <span>Seconds</span>
+          <p id="seconds">00</p>
+          <span>Seconds</span>
         </div>
+      </div>
 
-    </div>
-
-    <script>
+      <script>
         // Set the date we're counting down to
         var countDownDate = new Date("Sep 25, 2023 00:00:00").getTime();
 
         // Update the countdown every 1 second
-        var x = setInterval(function() {
+        var x = setInterval(function () {
+          // Get the current date and time
+          var now = new Date().getTime();
 
-            // Get the current date and time
-            var now = new Date().getTime();
+          // Calculate the time remaining
+          var distance = countDownDate - now;
 
-            // Calculate the time remaining
-            var distance = countDownDate - now;
+          // Calculate days, hours, minutes, and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor(
+            (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+          );
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            // Calculate days, hours, minutes, and seconds
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          // Display the countdown in the "countdown" div
+          document.getElementById("days").innerHTML = days;
+          document.getElementById("hours").innerHTML = hours;
+          document.getElementById("minutes").innerHTML = minutes;
+          document.getElementById("seconds").innerHTML = seconds;
 
-            // Display the countdown in the "countdown" div
-            document.getElementById("days").innerHTML = days;
-            document.getElementById("hours").innerHTML = hours;
-            document.getElementById("minutes").innerHTML = minutes;
-            document.getElementById("seconds").innerHTML = seconds;
-
-            // If the countdown is over, display a message
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("countdown").innerHTML = "EXPIRED";
-            }
+          // If the countdown is over, display a message
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("countdown").innerHTML = "EXPIRED";
+          }
         }, 1000); // Update every 1 second
-    </script>
-</section>
+      </script>
+    </section>
 
-<section class="events section-padding" id="events">
-    <div class="container">
+    <section class="events section-padding" id="events">
+      <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <h3 class="header">Events</h3>
-            </div>
+          <div class="col-md-12">
+            <h3 class="header">Events</h3>
+          </div>
         </div>
         <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
-                <div class="wp3">
-                    <p><strong>24th September</strong></p>
+          <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
+            <div class="wp3">
+              <p><strong>24th September</strong></p>
 
-                    <h5>Reception <span class="time">7PM onwards</span></h5>
-                    <p>Before we start our journey of a new life, we want to make sure that your blessings are always with us. Please come join us at our reception!</p>
-                </div>
-                <div id="venmap" class="VenueButton">
-                    <button id="venueBtn">Venue</button>
-                </div>
+              <h5>Reception <span class="time">7PM onwards</span></h5>
+              <p>
+                Before we start our journey of a new life, we want to make sure
+                that your blessings are always with us. Please come join us at
+                our reception!
+              </p>
+              <p style="display: flex; justify-content: left;"><b>Venue</b>: Kusuma Chandrasekhar Convention Hall, KRS Road, Mysore</p>
+              <div id="venmap" class="VenueButton">
+                <button id="venueBtn">G-Map</button>
+              </div>
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
-                <div class="wp4">
-                    <p><strong>25th September</strong></p>
-                </div>
-                <div class="wp6">
-                    <h5>Wedding <span class="time">12:15PM - 1PM</span></h5>
-                    <p> A sacred thread, two lives in union spread,
-                        Amidst traditions, love is wed, blessings upon the path ahead,
-                        Families join with joy and pride, as bride and groom stand side by side.</p>
-                </div>
-                <div id="venmap" class="VenueButton">
-                    <button id="venueBtn1">Venue</button>
-                </div>
-
-                <div class="wp6">
-                    <p><strong>1st October</strong></p>
-                    <h5 style="margin-bottom: 80px;">Beegara oota <span class="time">1PM onwards</span></h5>
-                    <div id="venmap" class="VenueButton">
-                        <button id="venueBtn2">Venue</button>
-                    </div>
-                </div>
-
+          </div>
+          <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
+            <div class="wp4">
+              <p><strong>25th September</strong></p>
             </div>
+            <div class="wp6">
+              <h5>Wedding <span class="time">12:15PM - 1PM</span></h5>
+              <p>
+                A sacred thread, two lives in union spread, Amidst traditions,
+                love is wed, blessings upon the path ahead, Families join with
+                joy and pride, as bride and groom stand side by side.
+              </p>
+              <p style="display: flex; justify-content: left;"><b>Venue</b>: Kusuma Chandrasekhar Convention Hall, KRS Road, Mysore</p>
+              <div id="venmap" class="VenueButton">
+                <button id="venueBtn1">G-Map</button>
+              </div>
+            </div>
+            
+
+            <div class="wp6">
+              <p><strong>1st October</strong></p>
+              <h5 style="margin-bottom: 20px">
+                Beegara oota <span class="time">1PM onwards</span>
+              </h5>
+              <p style="display: flex; justify-content: left;"><b>Venue</b>: Kodava Samaja, Vijay Nagar 2nd Stage, Mysore</p>
+              <div id="venmap" class="VenueButton">
+                <button id="venueBtn2">G-Map</button>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
+    </section>
 
-</section>
-
-<section>
-    <div class="row">
+    <section>
+      <div class="row">
         <div class="col-md-12 text-center">
-            <h3 class="header">Cheers to the new beginnings</h3>
+          <h3 class="header">Cheers to the new beginnings</h3>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section class="prewedding-trailer" id="ourstory">
-    <div class="prewedding-trailer1">
-        <iframe src="https://www.youtube.com/embed/UYSIbWXkr6U?playlist=UYSIbWXkr6U&rel=0" frameborder="0" allowfullscreen controls="0">
+    <section class="prewedding-trailer" id="ourstory">
+      <div class="prewedding-trailer1">
+        <iframe
+          src="https://www.youtube.com/embed/UYSIbWXkr6U?playlist=UYSIbWXkr6U&rel=0"
+          frameborder="0"
+          allowfullscreen
+          controls="0"
+        >
         </iframe>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="video-bg" class="hidden-sm hidden-xs">
-    <div id="bgndVideo" class="player"
-         data-property="{videoURL:'https://youtu.be/8fIEqyruZIk',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:113, stopAt:120, opacity:1}">
-    </div>
-    <div id="video-content">
+    <section id="video-bg" class="hidden-sm hidden-xs">
+      <div
+        id="bgndVideo"
+        class="player"
+        data-property="{videoURL:'https://youtu.be/8fIEqyruZIk',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:113, stopAt:120, opacity:1}"
+      ></div>
+      <div id="video-content">
         <h5>Mysuru</h5>
         <p>City of Palace</p>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="map" class="section-padding">
-    <div class="text-center">
+    <section id="map" class="section-padding">
+      <div class="text-center">
         <h3>How do I get there?</h3>
         <p>It's way easier than you think!</p>
-    </div>
-    <div id="map-canvas"></div>
-    <div id="map-content-wrapper" class="container pointer-events-none">
+      </div>
+      <div id="map-canvas"></div>
+      <div id="map-content-wrapper" class="container pointer-events-none">
         <div class="row">
-            <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
-                <div class="text-center">
-                    <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
-                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
-                    </div>
-                </div>
-                <div id="map-content" class="pointer-events-auto">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h5>Kusuma Chandrashekar Convention Hall</h5>
-                            <p>K.R.S Road, Mysuru</p>
-                        </div>
-                        <div class="col-md-6">
-                            <h5>Mr. Karthik</h5>
-                            <p><i class="fa fa-mobile"></i> <a href="tel://+918553833453">+91 8553833453</a><br>
-                                <!-- <i class="fa fa-mobile"></i> <a href="tel://+917123456789">+91 7123456789</a></p> -->
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-md-6" style="padding: 5px;">
-                            <a class="btn btn-fill btn-small"
-                               href="https://m.uber.com/ul/?action=setPickup&client_id=K71MjqN25jJzj-evKrX2LP-XG1LvMBer&pickup=my_location&dropoff[formatted_address]=Kusuma%20Chandrasekhar%20Convention%20Hall%20KRS%20Rd%2C%20Mysuru%2C%20Mogarahalli%2C%20Karnataka&dropoff[latitude]=12.3724571&dropoff[longitude]=76.6246172"><i
-                                    class="fa fa-taxi"></i>&nbsp;&nbsp;Book Uber</a>
-                        </div>
-                        <div class="col-md-6" style="padding: 5px;">
-                            <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
-                                map</a>
-                        </div>
-                    </div>
-                </div>
+          <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
+            <div class="text-center">
+              <div
+                id="btn-show-content"
+                class="toggle-map-content pointer-events-auto"
+              >
+                <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
+              </div>
             </div>
+            <div id="map-content" class="pointer-events-auto">
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>Kusuma Chandrashekar Convention Hall</h5>
+                  <p>K.R.S Road, Mysuru</p>
+                </div>
+                <div class="col-md-6">
+                  <h5>Mr. Karthik</h5>
+                  <p>
+                    <i class="fa fa-mobile"></i>
+                    <a href="tel://+918553833453">+91 8553833453</a><br />
+                    <!-- <i class="fa fa-mobile"></i> <a href="tel://+917123456789">+91 7123456789</a></p> -->
+                  </p>
+                </div>
+              </div>
+              <div class="row text-center">
+                <div class="col-md-6" style="padding: 5px">
+                  <a
+                    class="btn btn-fill btn-small"
+                    href="https://m.uber.com/ul/?action=setPickup&client_id=K71MjqN25jJzj-evKrX2LP-XG1LvMBer&pickup=my_location&dropoff[formatted_address]=Kusuma%20Chandrasekhar%20Convention%20Hall%20KRS%20Rd%2C%20Mysuru%2C%20Mogarahalli%2C%20Karnataka&dropoff[latitude]=12.3724571&dropoff[longitude]=76.6246172"
+                    ><i class="fa fa-taxi"></i>&nbsp;&nbsp;Book Uber</a
+                  >
+                </div>
+                <div class="col-md-6" style="padding: 5px">
+                  <a class="btn btn-accent btn-small" id="btn-show-map"
+                    ><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show map</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<footer>
-    <div class="container">
+    <footer>
+      <div class="container">
         <div class="row">
-            <div class="col-sm-12 text-center content">
-                <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
-                <p style="font-size: x-large; font-family: Sofia;">Crafted by Karthik with lots of <span class="fa fa-heart pulse2"></span> for Sushmitha</p>
-            </div>
+          <div class="col-sm-12 text-center content">
+            <span class="to-top-wrapper"
+              ><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a
+            ></span>
+            <p style="font-size: x-large; font-family: Sofia">
+              Crafted by Karthik with lots of
+              <span class="fa fa-heart pulse2"></span> for Sushmitha
+            </p>
+          </div>
         </div>
-    </div>
-</footer>
-<script src="js/vendor/jquery-1.11.2.min.js" onerror="loadJsFromCDN('jquery.js')"></script>
-<script src="node_modules/waypoints/lib/jquery.waypoints.min.js" onerror="loadJsFromCDN('waypoints.js')"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="js/jquery.mb.YTPlayer.min.js"></script>
-<script src="js/vendor/ouical.js"></script>
-<script src="js/scripts.min.js"></script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTSq9LdwoDyNhBnyq2nhzHBoeFNBITuw4&callback=initMap"></script>
-
-</body>
+      </div>
+    </footer>
+    <script
+      src="js/vendor/jquery-1.11.2.min.js"
+      onerror="loadJsFromCDN('jquery.js')"
+    ></script>
+    <script
+      src="node_modules/waypoints/lib/jquery.waypoints.min.js"
+      onerror="loadJsFromCDN('waypoints.js')"
+    ></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="js/vendor/ouical.js"></script>
+    <script src="js/scripts.min.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTSq9LdwoDyNhBnyq2nhzHBoeFNBITuw4&callback=initMap"
+    ></script>
+  </body>
 </html>
