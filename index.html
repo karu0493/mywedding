@@ -158,7 +158,7 @@
     </section>
 
     <section class="countdown-timer reveal">
-      <div class="countdown-clock">
+      <div id="mycountdown" class="countdown-clock">
         <div>
           <p id="days">00</p>
           <span>Days</span>
@@ -179,7 +179,7 @@
 
       <script>
         // Set the date we're counting down to
-        var countDownDate = new Date("Sep 25, 2023 00:00:00").getTime();
+        var countDownDate = new Date("Sep 25, 2023 12:15:00").getTime();
 
         // Update the countdown every 1 second
         var x = setInterval(function () {
@@ -206,7 +206,9 @@
           // If the countdown is over, display a message
           if (distance < 0) {
             clearInterval(x);
-            document.getElementById("countdown").innerHTML = "EXPIRED";
+            const countdownElement = document.getElementById("mycountdown");
+            countdownElement.innerHTML = "Sept 25th 2023 <br> 12:15:00";
+            countdownElement.classList.add("mycountdown");
           }
         }, 1000); // Update every 1 second
       </script>
